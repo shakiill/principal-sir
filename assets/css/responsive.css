@@ -1,0 +1,314 @@
+/**********************************************
+
+Template Name:  kazo - Personal Portfolio Template
+Author: ThemeSockets
+Version: 1.0
+Design and Developed by: ThemeSockets
+
+NOTE: This is responsive stylesheet of the template, This file contains the styling for various devices like mobile phone, tablet, laptop etc.
+
+*************************************************/
+/* Medium Layout: 1280px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .about-text {
+        padding: 10px 0;
+        margin-top: 0;
+    }
+    .item-hover {
+	   padding: 15px;
+    }
+}
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .main-menu ul.navbar-nav li a {
+	   padding: 30px 6px;
+    }
+    .custom-navbar.top-nav-collapse .main-menu ul.navbar-nav li a {
+	   padding: 25px 6px;
+    }
+    .welcome-area .home-arrow {
+        bottom: -220px;
+    }
+    .welcome-text h2 {
+	   font-size: 65px;
+    }
+    .bg-shape-1{
+        background-size: contain;
+        height: 70px;
+    }
+    .section-title h2 {
+	   font-size: 42px;
+    }
+    .about-text {
+        margin-top: 30px;
+        padding-left: 0px;
+    }
+    .title-bg {
+        top: 8px;
+        font-size: 100px;
+    }
+   .stat-content {
+	   margin-top: 0;
+	   margin-bottom: 60px;
+    }
+    .margin-bottom-60 {
+	   margin-bottom: 30px;
+    }
+    .single-info {
+	   margin-bottom: 30px;
+    }
+    .about-area .tab {
+	   margin-top: 30px;
+    }
+    .single-stat {
+        margin-bottom: 50px;
+    }
+    .map {
+	   margin-top: 60px;
+    }
+    .pagination {
+        margin-bottom: 50px;
+        margin-top: 0;
+    }
+}
+/* Mobile Layout lower than: 320px. */
+
+@media only screen and (max-width: 767px) {
+    body{
+        font-size: 14px;
+    }
+    .section-title h2 {
+        font-size: 32px;
+    }
+    .title-bg {
+        top: 3px;
+        font-size: 70px;
+    }
+    .quotes-content h3 {
+        line-height: 1.2;
+        font-size: 36px;
+    }
+    .custom-navbar {
+        padding: 12px 0;
+        -webkit-transition: all 0.4s ease-in-out;
+        transition: all 0.4s ease-in-out;
+        background: #fff;
+    }
+    .logo a {
+        font-size: 24px;
+        margin-top: 4px;
+        line-height: 28px
+    }
+    .custom-navbar.top-nav-collapse .logo a {
+        margin-top: 4px;
+    }
+    .main-menu ul.navbar-nav {
+        float: left;
+    }
+    .main-menu ul.navbar-nav li a {
+        color: #666;
+        padding: 10px 5px;
+    }
+    .main-menu ul.nav.navbar-nav li.active:before {
+        display: none;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: 0 1px 0 rgba(255, 255, 255, 0.4) inset;
+        margin-top: 15px;
+    }
+    .navbar-toggle {
+        float: none;
+        margin: 0;
+        padding: 9px;
+        -webkit-transition: all 0.4s ease-in-out 0s;
+        transition: all 0.4s ease-in-out 0s;
+    }
+    .navbar-toggle .icon-bar {
+        background: #333 none repeat scroll 0 0
+    }
+    .navbar-header {
+        display: inline-block;
+        float: right;
+        margin-top: 0px;
+        -webkit-transition: all 0.4s ease-in-out;
+        transition: all 0.4s ease-in-out;
+    }
+    .custom-navbar.top-nav-collapse .main-menu ul.navbar-nav li a {
+        padding: 10px 5px;
+    }
+    .custom-navbar.top-nav-collapse .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: 0 1px 0 rgba(255, 255, 255, 0.4) inset;
+        margin-top: 15px;
+    }
+    .custom-navbar.top-nav-collapse .navbar-toggle {
+        float: none;
+        margin: 0;
+        padding: 9px;
+        -webkit-transition: all 0.4s ease-in-out;
+        transition: all 0.4s ease-in-out;
+    }
+    .custom-navbar .navbar-toggle .icon-bar {
+        background: #333 none repeat scroll 0 0
+    }
+    .custom-navbar.top-nav-collapse .navbar-header {
+        margin-top: 0px;
+    }
+    .custom-navbar.top-nav-collapse {
+        padding: 12px 0;
+    }
+    .mobile-menu-activated ul.nav.navbar-nav {} .mobile-menu-activated ul.nav.navbar-nav li {
+        display: block;
+        text-align: left;
+    }
+    .mobile-menu-activated ul.nav.navbar-nav li a {} .main-menu ul.navbar-nav {
+        text-align: left !important;
+        display: block;
+    }
+    .bg-shape-1{
+        background-size: contain;
+        height: 34px;
+    }
+    .welcome-text h2 {
+	   font-size: 36px;
+        margin-bottom: 10px;
+    }
+    .cd-headline.clip {
+        font-size: 19px;
+        line-height: 1.2;
+    }
+    .about-btn a {
+        padding: 6px 20px;
+        font-size: 13px;
+        margin-bottom: 5px;
+    }
+    .social-links {
+	   margin: 0;
+    }
+    .social-links a {
+        font-size: 16px;
+    }
+    .typed-cursor, .element {
+        font-size: 18px;
+    }
+    .welcome-area .home-arrow {
+        bottom: -90px;
+    }
+    .section-padding {
+        padding: 80px 0;
+    }
+    .section-padding {
+        padding: 80px 0px;
+    }
+    .author-image {
+        padding-bottom: 0;
+        padding-left: 0;
+    }
+   .about-text {
+        margin-top: 30px;
+        padding-left: 0px;
+    }
+    .item-hover {
+        padding: 15px;
+    }
+    .hover-content p {
+        font-size: 12px;
+        line-height: 22px;
+    }
+    .stat-content {
+        margin-top: 0;
+        margin-bottom: 60px;
+    }
+    .section-title {
+        margin-bottom: 55px;
+    }
+    .about-area h3 {
+        font-size: 24px;
+    }
+    .about-text h2 {
+	   font-size: 28px;
+    }
+   .margin-bottom-60 {
+	   margin-bottom: 30px;
+    }
+    .service-overlay ul li {
+	   font-size: 14px;
+    }
+    .t-author h4 {
+	   font-size: 15px;
+    }
+    .single-stat {
+        margin-bottom: 50px;
+    }
+    .single-info {
+	   margin-bottom: 30px;
+    }
+    .cta-area h2 {
+	   font-size: 26px;
+    }
+    .stat-content h2 {
+	   font-size: 24px;
+    }
+    .count-stat h4 {
+	   font-size: 16px;
+    }
+    .box {
+        margin-bottom: 50px;
+    }
+    .single-address{
+        margin-bottom: 30px;
+    }
+    .map {
+	   margin-top: 60px;
+    }
+    .breadcroumb-area h1 {
+        font-size: 32px;
+    }
+    .breadcroumb {
+        font-size: 14px;
+    }
+    .pagination {
+        margin-bottom: 50px;
+        margin-top: 0;
+    }
+    .single-post h2, .single-post-details h2 {
+        font-size: 20px;
+    }
+    .comment-metadata {
+        margin-top: 10px;
+    }
+    .row.replay-area {
+        margin-left: 40px;
+        margin-top: 20px;
+    }
+    .comment-form-wrap {
+      margin-bottom: 50px;
+    }
+    h3.comment-title {
+        font-size: 18px;
+    }
+    .footer p {
+	   font-size: 14px;
+    }
+    
+}
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .mobile-menu-activated ul.nav.navbar-nav li a {
+        padding: 10px 5px;
+    }
+    .welcome-text h2 {
+	   font-size: 42px;
+    }
+    .item-hover {
+	   padding: 30px;
+    }
+    .hover-content p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+}
