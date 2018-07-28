@@ -1,13 +1,5 @@
- /*************************************
 
-Template Name: kazo - Personal Portfolio Template
-Author: ThemeSockets
-Version: 1.0
-Design and Developed by: ThemeSockets
-
-NOTE: This is main stylesheet of the template.
-
-****************************************/
+/****************************************/
  /*================================================
             Table of contents  
 ==================================================
@@ -1461,9 +1453,17 @@ h3.comment-form-title{
  .courses-content {
     background: #fff;
     padding: 20px;
+    margin-bottom: 30px;
+    min-height: 300px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.12);
+    transition: all .5s;
  }
  .courses-content-img {
     width: 100%;
     margin-bottom: 20px;
  }
+.courses-content:hover {
+    transform: scale(1.1);
+    border-top: 3px solid #b9b4b4;
+    border-bottom: 3px solid #b9b4b4;
+}

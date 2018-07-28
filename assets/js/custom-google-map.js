@@ -3,10 +3,10 @@
 
     jQuery(document).ready(function($){
         
-        var uluru = {lat: 28.464023, lng: -81.398951};
+        var uluru = {lat: 23.7508845, lng: 90.3784868};
                 $(".map")
                   .gmap3({
-                    zoom: 15,
+                    zoom: 17,
                     center: uluru,
                      scrollwheel: false,
                     mapTypeId: "shadeOfGrey", // to select it directly
